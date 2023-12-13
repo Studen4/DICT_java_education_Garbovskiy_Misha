@@ -1,4 +1,4 @@
-// Something text for commit)
+
 import java.util.Scanner;
 
 public class ChatBot {
@@ -6,6 +6,7 @@ public class ChatBot {
         System.out.println("Hello! My name is MyBot.");
         System.out.println("I was created in 2023.");
         System.out.println("Victory");
+        System.out.println("Victory 2 part");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, remind me your name.");
