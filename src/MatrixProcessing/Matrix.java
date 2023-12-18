@@ -204,14 +204,14 @@ public class Matrix {
     public Matrix minor(int i, int j) {
         double[][] minorMatrixElements = new double[rows - 1][cols - 1];
         int minorRows = 0;
-        int minorCols; // Оголосити змінну тут
+        int minorCols;
 
         for (int row = 0; row < rows; row++) {
             if (row == i) {
                 continue;
             }
 
-            minorCols = 0; // Ініціалізувати змінну тут
+            minorCols = 0;
 
             for (int col = 0; col < cols; col++) {
                 if (col == j) {
